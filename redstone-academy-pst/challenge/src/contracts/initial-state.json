@@ -1,1 +1,9 @@
-{}
+{
+  "ticker": "FC",
+  "name": "Federation Credits",
+  "owner": "ksFTLgrwQGtNrhRz6MWyd3a4lvK1Oh-QF1HYcEeeFVk",
+  "balances": {
+    "ksFTLgrwQGtNrhRz6MWyd3a4lvK1Oh-QF1HYcEeeFVk": 1900,
+    "SGYcSssM3mC6qQeKf-cfpniinbTwzI1StYJ5OVwDEs4": 100
+  }
+}

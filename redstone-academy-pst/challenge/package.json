@@ -14,7 +14,9 @@
     "test:node": "jest tests",
     "test:browser": "jest tests --config ./jest.browser.config.js",
     "deploy:test": "ts-node src/tools/deploy-test-contract.ts",
-    "deploy": "ts-node src/tools/deploy-contract.ts"
+    "deploy": "ts-node src/tools/deploy-contract.ts",
+    "contract:print": "ts-node src/tools/contract-print-state.ts",
+    "contract:transfer": "ts-node src/tools/contract-state-update.ts"
   },
   "dependencies": {
     "arlocal": "1.1.19",

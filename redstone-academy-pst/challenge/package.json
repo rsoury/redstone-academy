@@ -12,7 +12,9 @@
     "cp": "copyfiles -u 1 ./src/**/*.json dist",
     "test": "yarn test:node && yarn test:browser",
     "test:node": "jest tests",
-    "test:browser": "jest tests --config ./jest.browser.config.js"
+    "test:browser": "jest tests --config ./jest.browser.config.js",
+    "deploy:test": "ts-node src/tools/deploy-test-contract.ts",
+    "deploy": "ts-node src/tools/deploy-contract.ts"
   },
   "dependencies": {
     "arlocal": "1.1.19",
